@@ -45,7 +45,7 @@ class Creator extends React.Component {
 
   render() {
     return (
-      <div className={styles.component}>
+      <div className={ styles.component }>
         <input
           type='text'
           placeholder={this.props.text}
