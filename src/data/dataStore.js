@@ -12,6 +12,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  logo: 'cat',
 };
 
 export const pageContents = {
@@ -70,6 +71,18 @@ export const listData = {
       ],
     },
   ],
+};
+
+export const dataFaq = {
+  title: 'Here I am too',
+  image: 'https://i.postimg.cc/j5xXWptJ/daac8ae9-ab2d-4aed-b1eb-0ed74d2de163-i-zoom-space-adventure.jpg',
+  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+};
+
+export const dataInfo = {
+  title: 'Here I am',
+  image: 'https://i.postimg.cc/bvCGTW1n/Getty-Images-91354007-768e5d8.jpg',
+  text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 };
 
 const lists = [
