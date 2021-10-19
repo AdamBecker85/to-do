@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Search.scss';
 import Button from '../Button/Button';
 import Icon from '../Icon/Icon';
-import {withRouter} from 'react-router';
+import {withRouter} from 'react-router-dom';
 import { settings } from '../../data/dataStore';
 import PropTypes from 'prop-types';
 //import Container from '../Container/Container';
@@ -15,7 +15,7 @@ class Search extends React.Component {
     // changeSearchString: PropTypes.func,
     // countVisible: PropTypes.number,
     // countAll: PropTypes.number,
-    history: PropTypes.node,
+    history: PropTypes.any,
   }
 
   // static defaultProps = {
